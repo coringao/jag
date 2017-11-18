@@ -124,7 +124,7 @@
     - No hint drawing for inactive tools
     - Fixed changing of the theme during the game
   * Improvements:
-    - Added auto-pause when loosing focus
+    - Added auto-pause when losing focus
 
 **version: 0.2.0**
   * A lot of fixes and gameplay changed
