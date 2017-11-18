@@ -60,6 +60,6 @@ Many thanks to [XlabSoft & Industrial Infosystems](https://xlabsoft.com),
 the originals authors of JAG. Official developers site was deactivated
 at the end of 2016.
 
-Copyright (C) 2009-2012 Developed by **XlabSoft & Industrial Infosystems**
+Copyleft (ɔ) 2009-2012 Developed by **XlabSoft & Industrial Infosystems**
 
 Copyright (C) 2017 Work continued by **Carlos Donizete Froes [a.k.a coringao]**
