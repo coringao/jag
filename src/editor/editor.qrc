@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/" >
+	<file>editor.png</file>
         <file>images/appear.png</file>
         <file>images/block1.png</file>
         <file>images/block2.png</file>
