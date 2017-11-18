@@ -1,186 +1,129 @@
-JAG: Freeware crossplatform 2D arcade-puzzle game
+/*
+ * This file is part of JAG, Puzzle game where the goal is to break all
+ * the target pieces in each level and do this before the time runs out.
+ *
+ * Many thanks to XlabSoft & Ind. Infosystems, the originals authors of JAG.
+ *
+ * Copyright holder 2009-2012 Developed by XlabSoft & Industrial Infosystems
+ * Work continued by 2017 Carlos Donizete Froes [a.k.a coringao]
+ *	
+ * JAG is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * any later version.
+ *
+ * JAG is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with JAG. If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
 
-version 0.3.2
+**version: 0.3.2**
+  * Added Italian translation (thanks to Franco Rebora)
+  * Added Dutch translation (thanks to Bart Van Loy)
+  * Added French translation (thanks to Tutur)
+  * Added "Learning ABC" level pack (thanks to APC aka Andrey Pohilko)
+  * Improvements:
+    - Extended display settings (Multi Monitor Recognition)
+    - Dynamic help loading
+    - Added menu icons
+    - Compiled with Qt 4.7.2
 
-XlabSoft & Industrial Infosystems 2009-2012
+**version: 0.3.1**
+  * Added German translation (thanks to Kristjan Schmidt) 
+  * Improvements:
+    - Main menu is centered to be visible even if JAG's
+    main window cannot fit on the screen
+  * Fixes:
+    - Broken font in dialogs with low screen resolution
+    - Alternative detection of video modes on X11 if xrandr fails
+    - Some compiler warnings removed
+    - Some memory leaks removed
 
-----------------------------------------------------------------------------------
-LICENSE
+**version: 0.3.0**
+  * Added kde-ctystal scheme
+  * Improvements:
+    - Added support of different resolutions
+    - Player configuration dialog simplified
+    - Added version output
+  * Fixes:
+    - Fixed potential crash during play
+    - Fixed issue when loading a scheme with no background files
 
-This software is free and is distributed according to GPL and compatible licenses.
-Full text of GPL and more you can read here: 
-  http://www.fsf.org/licensing/licenses/gpl.html
+**version: 0.2.6**
+  * Gameplay Changes:
+    - Added new level pack 'SunZero' with 50 levels
+    - Added Russian language translation
+  * Fixes:
+    - Fixed graphic themes selection dialog
 
-----------------------------------------------------------------------------------
-ABOUT THE JAG
+**version: 0.2.5**
+  * Improvements:
+    - Levelpack format improved
+    - Level editor added to install
+  * Fixes:
+    - Some missing resources files added to install
+    - Changed colors for collected items
 
-JAG is a match-three 2D game which runs on Linux, Windows and FreeBSD. 
-JAG was created using only free development software and free resources.
+**version: 0.2.4**
+  * Added some Visual FX
+  * Gameplay Changes:
+    - Time x1.5 Bonus for Hard Difficulty
+    - Tool prices and order changed
+    - Score bonus is the most expensive one now
+    - Default level pack redesigned
+  * Fixes:
+    - Fixed level start with no level pack available
+    - Fixed new game settings (mode and difficulty)
+    - Fixed issue with wrong path to data on Linux
+  * Improvements:
+    - Clicking on player name and levelpack in main menu shows menu
 
-----------------------------------------------------------------------------------
-SUPPORTED PLATFORMS
-
-Since JAG is based on Qt4/SDL frameworks, all the platforms supported by them 
-should be able to build and launch the game.
-
-In particular:
-- MS Windows 7, Vista, XP
-- All Linux OS
-- FreeBSD
-
-----------------------------------------------------------------------------------
-INSTALLATION
-
-Installation manual can be found here: http://jag.xlabsoft.com/install.php
-
-----------------------------------------------------------------------------------
-UPDATES
-  
-Updates, additional level packs and schemes can be downloaded from JAG's website: 
-
-http://jag.xlabsoft.com 
-
----------------------------------------------------------------------------------
-CHANGELOG
-
-0.3.2
-
-- added Italian translation (thanks to Franco Rebora)
-- added Dutch translation (thanks to Bart Van Loy)
-- added French translation (thanks to Tutur)
-
-- added "Learning ABC" level pack (thanks to APC aka Andrey Pohilko, http://apc.kg)
-
-- improvements:
-	- extended display settings (multi monitor recognition)
-	- dynamic help loading
-	- added menu icons
-	- compiled with Qt 4.7.2
-
-
-0.3.1
-
-- added German translation (thanks to Kristjan Schmidt)
-
-- improvements:
-	- main menu is centered to be visible even if JAG's main window cannot fit on the screen
-
-- fixes:
-	- broken font in dialogs with low screen resolution
-	- alternative detection of video modes on X11 if xrandr fails
-	- some compiler warnings removed
-	- some memory leaks removed
-	
-
-0.3.0
-
-- added kde-ctystal scheme
-
-- improvements:
-	- added support of different resolutions
-	- player configuration dialog simplified
-	- added version output
-	
-- fixes:
-	- fixed potential crash during play
-	- fixed issue when loading a scheme with no background files
-
-
-0.2.6
-
-- gameplay changes:
-	- added new level pack 'SunZero' with 50 levels
-	- added Russian language translation
-	
-- fixes:
-    - fixed graphic themes selection dialog
-
-	
-0.2.5
-
-- improvements:
-	- levelpack format improved
-	- level editor added to install
-	
-- fixes:
-    - some missing resources files added to install
-	- changed colors for collected items
-
-
-0.2.4
-
-- added some visual fx
-
-- gameplay changes:
-	- time x1.5 bonus for hard difficulty
-	- tool prices and order changed
-	- score bonus is the most expensive one now
-	- default level pack redesigned
-
-- fixes:
-    - fixed level start with no level pack available
-	- fixed new game settings (mode and difficulty)
-	- fixed issue with wrong path to data on Linux
-	
-- improvements:
-	- clicking on player name and levelpack in main menu shows menu
-
-
-0.2.3
-
-- gameplay changes:
-	- permanent time bonus gives +30 seconds instead of +10
-	- permanent score bonus gives +1 point for every destroyed target only, not item
-	- item types count on level is const for difficulty level
+**version: 0.2.3**
+  * Gameplay Changes:
+    - Permanent time bonus gives +30 seconds instead of +10
+    - Permanent score bonus gives +1 point for every destroyed
+      target only, not item
+    - Item types count on level is const for difficulty level
       (easy - 4, normal - 5, hard - 6)
-	- no time x1.5 bonus for easy level
-	
-- fixes:
-    - fixed hanging when no moves on level
-	- fixed odd scoring when no data folder found
+    - No time x1.5 bonus for easy level
+  * Fixes:
+    - Fixed hanging when no moves on level
+    - Fixed odd scoring when no data folder found
 
+**version: 0.2.2**
+  * Gameplay Changes:
+    - Bonus and tools are now given after passing some levels
+    - Bonus for a remaining time decreased
+    - Some levels redesigned to be easier to play
+  * Fixes:
+    - GNU/Linux: now should work without installation
+    - Fixed flashing of items after appear at the beginning of the level
+    - No hint drawing while showing statistics
+  * Improvements:
+    - Added "Restart level" button
+    - Improved move hinting
+    - Now tools can be canceled by placing back
+    - Game progress saved for each levelpack
+    - Player profile format changed to XML
 
-0.2.2
+**version: 0.2.1**
+  * Gameplay Changes:
+    - Timer tool - 60 seconds now
+    - Puzzle mode has no time limit
+  * Fixes:
+    - Fix of occasional reactivation of the tools while starting a new level
+    - No hint drawing for inactive tools
+    - Fixed changing of the theme during the game
+  * Improvements:
+    - Added auto-pause when loosing focus
 
-- gameplay changes:
-	- bonus and tools are now given after passing some levels
-	- bonus for a remaining time decreased
-	- some levels redesigned to be easier to play
+**version: 0.2.0**
+  * A lot of fixes and gameplay changed
 
-- fixes:
-	- linux: now should work without installation
-	- fixed flashing of items after appear at the beginning of the level
-	- no hint drawing while showing statistics
-	
-- improvements:
-	- added "Restart level" button
-	- improved move hinting 
-	- now tools can be canceled by placing back
-	- game progress saved for each levelpack
-	- player profile format changed to XML
-
-
-0.2.1
-
-- gameplay changes:
-	- timer tool: 60 seconds  now
-	- puzzle mode has no time limit
-
-- fixes:
-	- fix of occasional reactivation of the tools while starting a new level
-	- no hint drawing for inactive tools
-	- fixed changing of the theme during the game
-	
-- improvements:
-	- added auto-pause when loosing focus
-
-
-0.2.0
-
-- a lot of fixes
-- gameplay changed
-
-
-0.1.0
-
-- initial release
+**version: 0.1.0**
+  * Initial Release
