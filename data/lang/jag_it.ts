@@ -570,7 +570,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Cannot create new Player with existing name!</source>
-        <translation>Non è possibile creare il giocatore con questo nome!</translation>
+        <translation>Impossibile creare un nuovo giocatore con nome esistente!</translation>
     </message>
     <message>
         <source>Rename Player</source>
@@ -582,7 +582,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Cannot rename to the existing name!</source>
-        <translation>Non è possibile rinominare questo nome!</translation>
+        <translation>Impossibile creare un nuovo giocatore con nome esistente!</translation>
     </message>
     <message>
         <source>Remove Player</source>
