@@ -25,7 +25,7 @@ MenuWidget::MenuWidget(QWidget *parent) :
 
     // set stylesheet
     QString stylepath = ":/style/style.css";
-#ifdef Q_OS_WIN
+#ifdef Q_WS_X11
     if (QSysInfo::WindowsVersion >= QSysInfo::WV_VISTA)
         stylepath = ":/style/style_vista.css";
 #endif
@@ -93,34 +93,7 @@ void MenuWidget::activate(bool en)
     else
       hide();
 }
-/*
-void MenuWidget::updateHallOfFame()
-{
-    QList<PlayerScore> topten = gameProfile->topTenList();
 
-    for (int i = 0; i < 10; i++) {
-        QString name = QString("%1. ").arg(i + 1, 2, 10, QChar(' '));
-        int score = 0;
-        if (i < topten.count()) {
-            name += topten.at(i).name;
-            score = topten.at(i).score;
-        }
-        QString s_score = QString("%1").arg(score, 7, 10, QChar('0'));
-        if (score == 0)
-            s_score = "-------";
-
-        QTableWidgetItem *twi = ui.twHall->item(i, 0);
-        if (twi)
-            twi->setText(name);
-
-        twi = ui.twHall->item(i, 1);
-        if (twi) {
-            twi->setText(s_score);
-            twi->setTextAlignment(Qt::AlignCenter);
-        }
-    }
-}
-*/
 void MenuWidget::onCurrentChanged(int)
 {
     int dy = HEIGHT < 700 ? Y48 : DY(150);

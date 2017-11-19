@@ -102,7 +102,7 @@ public:
     void saveProfile();
     void loadProfile();
 
-    void loadOldProfile();   // for backward compability
+    void loadOldProfile();   // for backward compatibility
 
     void saveXml();
     void loadXml();

@@ -83,7 +83,7 @@ int main(int argc, char *argv[])
     }
 
     // settings of audio (could be changed)
-    int audio_rate = 22050;
+    int audio_rate = 44100;
     Uint16 audio_format = MIX_DEFAULT_FORMAT;
     int audio_channels = 2;
     int audio_buffers = 1024;

@@ -63,7 +63,7 @@ GameProfile::GameProfile(QObject *parent) : QObject(parent),
   m_accel(false)
 {
     userPath = QDir::homePath();
-#ifdef Q_OS_WIN32
+#ifdef Q_WS_X11
   userPath += "/Application Data/XlabSoft/JAG/";
 #else
   userPath += "/.xlabsoft/jag/";
