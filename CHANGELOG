@@ -22,9 +22,18 @@
 # * along with JAG. If not, see <http://www.gnu.org/licenses/>.
 # *
 ###############################################################################
+
 **version: 0.3.3**
   * Starting the project continuity for the GNU/Linux version
+  * Added the GPL3 license in all source codes.
   * Added conditional support for Qt5 components and SDL2 library
+  * Removed directory and files to the new directory (src)
+  * Improvements:
+    - Compiled with Qt5 version
+    - Replaced for SDL library in version 2
+  * Fixes:
+    - Some bug fixes in files
+    - Libpng warning fixed: iCCP: known incorrect sRGB profile
 
 **version: 0.3.2**
   * Added Italian translation (thanks to Franco Rebora)
