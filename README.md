@@ -48,7 +48,7 @@ To create the game binary, do it from the source directory.
 
     $ make distclean
 
-The game binary after compilation is in "bin" directory.
+The game binary after compilation is in **bin** directory.
 
     $ ./bin/jag
 
