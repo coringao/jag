@@ -1,6 +1,6 @@
 <RCC>
     <qresource prefix="/">
-	<file>jag.png</file>
+	<file>images/jag.png</file>
         <file>images/cursor_wand.png</file>
         <file>images/logo.png</file>
         <file>images/target2.png</file>
