@@ -95,4 +95,4 @@ HEADERS += src/gamewidget.h \
 	src/version.h
 RESOURCES += src/resources.qrc
 FORMS += src/menu.ui
-TRANSLATIONS += ./lang/jag_ru.ts
+TRANSLATIONS += data/lang/jag_ru.ts
