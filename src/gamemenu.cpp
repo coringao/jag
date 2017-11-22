@@ -48,6 +48,13 @@ MenuWidget::MenuWidget(QWidget *parent) :
         ui.twHall->setItem(i, 1, new QTableWidgetItem(""));
     }
 
+    // set stylesheet
+    QString stylepath = ":/style/style.css";
+#ifdef Q_OS_UNIX
+    if (QSysInfo::WindowsVersion >= QSysInfo::WV_VISTA)
+        stylepath = ":/style/style_vista.css";
+#endif
+
     QString style = "";
     QFile f(stylepath);
     if (f.open(QIODevice::ReadOnly)) {
