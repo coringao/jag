@@ -88,11 +88,8 @@ GameProfile::GameProfile(QObject *parent) : QObject(parent),
   m_accel(false)
 {
     userPath = QDir::homePath();
-#ifdef Q_WS_X11
-  userPath += "/Application Data/XlabSoft/JAG/";
-#else
-  userPath += "/.xlabsoft/jag/";
-#endif
+    userPath += "/.xlabsoft/jag/";
+
 
     QDir userdir(userPath);
     if (!userdir.exists())
@@ -335,63 +332,3 @@ QString GameProfile::levelPackName(const QString &lp)
     }
     return packname;
 }
-
-/*
-void GameProfile::addTopTenPlayer(PlayerScore ps)
-{
-    bool ins = false;
-    for (int i = 0; i < m_topten.count(); i++) {
-        if (ps.score > m_topten.at(i).score) {
-            m_topten.insert(i, ps);
-            ins = true;
-            break;
-        }
-    }
-    if (!ins)
-        m_topten.append(ps);
-}
-
-void GameProfile::saveTopTen()
-{
-    QFile f(userPath + "hall.dat");
-    if (f.open(QIODevice::WriteOnly)) {
-        QDataStream ds(&f);
-        // format signature
-        ds << QString("HAL1");
-
-        // count
-        int cnt = qMin(m_topten.count(), 10);
-        ds << cnt;
-
-        for (int i = 0; i < cnt; i++) {
-            ds << m_topten.at(i).name;
-            ds << m_topten.at(i).score;
-        }
-    }
-}
-
-void GameProfile::loadTopTen()
-{
-    QFile f(userPath + "hall.dat");
-    if (f.open(QIODevice::ReadOnly)) {
-        QDataStream ds(&f);
-
-        QString sig;
-        // format signature
-        ds >> sig;
-        if (sig == "HAL1") {
-            int cnt;
-            // count
-            ds >> cnt;
-
-            for (int i = 0; i < cnt; i++) {
-                QString name;
-                int score;
-                ds >> name;
-                ds >> score;
-                m_topten.append(PlayerScore(name, score));
-            }
-        }
-    }
-}
-*/
