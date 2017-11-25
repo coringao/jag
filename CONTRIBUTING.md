@@ -13,23 +13,18 @@ to the public domain.
 **Getting Started**
 -------------------
 
-1. Make sure you have a [GitLab Account](https://gitlab.com/users/sign_in)
-or [GitHub Account](https://github.com/login).
+1. Make sure you have a [GitHub Account](https://github.com/login).
 2. Submit your issue (ensure the same issue does not already exists).
 3. Try to clearly describe the issue, and include steps to reproduce
 when it is a bug.
 
-**Creating the fork in GitLab**
+**Creating the fork in GitHub**
 -------------------------------
 
 Talk to us! E.G. create an issue about your idea or problem.
 
 Fork the repository and work in a meaningful named branch that is
 based off of our **master**.
-
-**GitLab:**
-
-    $ git clone https://gitlab.com/coringao/jag.git
 
 **GitHub**
 
