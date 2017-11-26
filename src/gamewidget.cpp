@@ -145,7 +145,7 @@ void GameWidget::setVideoMode()
   if (gameProfile->isFullscreen())
   {
     // set full screen mode
-    if (!DisplayWrapper::switchVideoMode(WIDTH,HEIGHT,0,true))
+    if (!DisplayWrapper::switchVideoMode(WIDTH,HEIGHT,0,false))
     {
         qDebug() << "Unable to change resolution.";
     }

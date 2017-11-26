@@ -59,8 +59,8 @@ public:
         sndLevelFail = 15,
         sndLevelWon = 16,
         sndBeep = 17,
-        sndBonusGot,
-        sndTool
+        sndBonusGot = 18,
+        sndTool = 19
     };
 
     Mix_Chunk* loadSound(const QString &filename);

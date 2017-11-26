@@ -76,8 +76,8 @@ struct PlayerInfo
         name(s), theme("default"),
         currentlevelpack("default"),
         m_fullscreen(false),
-        m_width(0), m_height(0),
-        musicEnabled(false), soundVolume(64), musicVolume(64),
+        m_width(960), m_height(720),
+        musicEnabled(true), soundVolume(80), musicVolume(80),
         x(0), y(0), screen(0)
         { addLevelPack("default"); }
 
