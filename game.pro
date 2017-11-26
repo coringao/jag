@@ -23,11 +23,11 @@
 # *
 ###############################################################################
 
-QT += gui opengl xml x11extras
+QT += gui core widgets opengl xml x11extras
 TARGET = ./bin/jag
 TEMPLATE = app
 
-LIBS += -lX11 -lSDL2 -lSDL2_mixer -lXrandr
+LIBS += -lGL -lX11 -lSDL2 -lSDL2_mixer -lpthread -lXrandr
 
 OBJECTS_DIR += src
 MOC_DIR += src
