@@ -60,7 +60,7 @@ int main(int argc, char *argv[])
   // on X11, we'll check if data directory exists locally first
 #ifdef Q_OS_UNIX
   if (!QDir(resourcePath).exists())
-    resourcePath = "/usr/local/games/jag/data/";
+    resourcePath = "/usr/share/games/jag/data/";
 #endif
 
   if (!QDir(resourcePath).exists()) {
