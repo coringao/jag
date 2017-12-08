@@ -87,9 +87,9 @@ Mix_Chunk* GameSound::loadSound(const QString &filename)
 {
   Mix_Chunk *sound = Mix_LoadWAV(filename.toLocal8Bit().constData());
 
-  if(sound == NULL) {
-    qDebug() << filename << ": sound not loaded: " << Mix_GetError();
-    //fprintf(stderr, "Unable to load WAV file: %s\n", Mix_GetError());
+  if(sound == NULL)
+  {
+    qDebug() << "Unable to load WAV file: " << Mix_GetError();
   }
 
   m_sounds.append(sound);
@@ -110,8 +110,8 @@ void GameSound::playSound(int index, int /*loops*/)
       int channel = Mix_PlayChannel(-1, chunk, 0);
       if(channel == -1)
       {
-        qDebug() << "Unable to play sound file: " << Mix_GetError();
-        //fprintf(stderr, "Unable to play sound file: %s\n", Mix_GetError());
+        //qDebug() << "Unable to play sound file: " << Mix_GetError();
+        //return;
       }
       else
         Mix_Volume(channel, channel_vol);
@@ -142,9 +142,6 @@ void GameSound::setChannelVolume(int val, int ch)
     channel_vol = val;
 }
 
-
-
-
 void GameSound::loadMusic(const QString &filename)
 {
   if (music)
@@ -152,9 +149,10 @@ void GameSound::loadMusic(const QString &filename)
 
   music = Mix_LoadMUS(filename.toLocal8Bit().constData());
 
-  if(music == NULL) {
-    qDebug() << filename << ": music not loaded: " << Mix_GetError();
-    //fprintf(stderr, "Unable to load music file: %s\n", Mix_GetError());
+  if(music == NULL)
+  {
+    qDebug() << "Music not loaded: " << Mix_GetError();
+    return;
   }
 
 }
@@ -170,7 +168,7 @@ void GameSound::playMusic()
   if(channel == -1)
   {
     qDebug() << "Unable to play music file: " << Mix_GetError();
-    //fprintf(stderr, "Unable to play music file: %s\n", Mix_GetError());
+    return;
   }
 
   Mix_VolumeMusic(music_vol);
