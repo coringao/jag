@@ -118,14 +118,8 @@ int main(int argc, char *argv[])
     // main widget & startup
     GameWidget w(resourcePath);
 
-    int result = a.exec();
-
-    // deinitialization of SDL
-    Mix_CloseAudio();
-    SDL_Quit();
-
     // deinitialization of DisplayWrapper
     DisplayWrapper::restoreVideoMode();
 
-    return result;
+    return a.exec();
 }
