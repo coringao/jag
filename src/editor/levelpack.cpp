@@ -1,5 +1,8 @@
 #include "levelpack.h"
-#include <QtGui>
+#include <QMessageBox>
+#include <QSettings>
+#include <QDir>
+#include <QFileDialog>
 
 const int STACK_LEVELS = 0;
 const int STACK_INFO = 1;

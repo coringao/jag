@@ -1,11 +1,11 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include <QtGui>
 #include "ui_mainwindow.h"
 #include "levelwidget.h"
 
 #include "defines.h"
+#include <QMessageBox>
 
 const int LEVEL_WIDTH = 15;
 const int LEVEL_HEIGHT = 12;

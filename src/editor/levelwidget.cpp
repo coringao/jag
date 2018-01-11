@@ -1,4 +1,5 @@
 #include "levelwidget.h"
+#include <QMouseEvent>
 
 void LevelWidget::enterEvent(QEvent *event)
 {
