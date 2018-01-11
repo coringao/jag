@@ -1,7 +1,7 @@
 #ifndef LEVELWIDGET_H
 #define LEVELWIDGET_H
 
-#include <QtGui>
+#include <QTableWidget>
 
 class LevelWidget: public QTableWidget
 {

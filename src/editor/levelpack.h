@@ -1,7 +1,7 @@
 #ifndef LEVELPACK_H
 #define LEVELPACK_H
 
-#include <QtGui/QDialog>
+#include <QDialog>
 #include "ui_levelpack.h"
 
 class LevelPackDialog : public QDialog {

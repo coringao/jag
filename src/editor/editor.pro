@@ -2,6 +2,9 @@
 # Project created by QtCreator 2009-05-16T12:44:58
 # -------------------------------------------------
 
+
+QT += gui core widgets xml x11extras
+
 unix: {
     TARGET = ./bin/jag-editor
     target.path = /usr/local/bin/
