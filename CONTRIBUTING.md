@@ -13,9 +13,9 @@ to the public domain.
 **Getting Started**
 -------------------
 
-**1.** Make sure you have a **GIT account**.
-**2.** Submit your issue (ensure the same issue does not already exists).
-**3.** Try to clearly describe the issue, and include steps to reproduce
+1. Make sure you have a **GIT account**.
+2. Submit your issue (ensure the same issue does not already exists).
+3. Try to clearly describe the issue, and include steps to reproduce
 when it is a bug.
 
 **Creating the fork**
@@ -45,10 +45,10 @@ When finished create a merge request.
 **Special Thanks To**
 ---------------------
 
-> 2018 **Yury (yuryfdr)** - https://github.com/yuryfdr
+2018 **Yury (yuryfdr)** - https://github.com/yuryfdr
 > - _Fix unix install and editor build with qt5_
-> 
-> 2018 **Ricky R. Froes** - rickyfroes at riseup dot net
+ 
+2018 **Ricky R. Froes** - rickyfroes at riseup dot net
 > - _Added language in Portuguese_
 
 Thank you for your interest and contributing!
