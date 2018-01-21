@@ -45,10 +45,10 @@ When finished create a merge request.
 **Special Thanks To**
 ---------------------
 
-> 01/2018 **Yury (yuryfdr)** - <https://github.com/yuryfdr>
-> - __Fix unix install and editor build with qt5__
+> 2018 **Yury (yuryfdr)** - https://github.com/yuryfdr
+> - _Fix unix install and editor build with qt5_
 > 
-> 01/2018 **Ricky R. Froes** - <rickyfroes at riseup dot net>
-> - __Added language in Portuguese__   
+> 2018 **Ricky R. Froes** - rickyfroes at riseup dot net
+> - _Added language in Portuguese_
 
 Thank you for your interest and contributing!
