@@ -66,4 +66,4 @@ at the end of 2016.
 
 Copyleft (ɔ) 2009-2012 Developed by **XlabSoft & Industrial Infosystems**
 
-Copyright (C) 2017 Work continued by **Carlos Donizete Froes [a.k.a coringao]**
+Copyright (C) 2017-2018 Work continued by **Carlos Donizete Froes [a.k.a coringao]**
