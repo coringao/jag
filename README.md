@@ -55,7 +55,7 @@ The game binary after compilation is in **bin** directory.
 **JAG Level Editor**
 --------------------
 
-To build editor, do from the source directory: (src/editor)
+To build editor, do from the source directory: (**src/editor**)
 
 **Starting compilation:**
 
