@@ -6,7 +6,7 @@
  * Many thanks to XlabSoft & Ind. Infosystems, the originals authors of JAG.
  *
  * Copyright holder 2009-2012 Developed by XlabSoft & Industrial Infosystems
- * Work continued by 2017 Carlos Donizete Froes [a.k.a coringao]
+ * Work continued by 2017-2018 Carlos Donizete Froes [a.k.a coringao]
  *
  * JAG is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -67,8 +67,8 @@ void GameScene::drawBackground(QPainter *painter, const QRectF &)
     p.setPen(QPen(Qt::white));
 //    p.drawText(QRect(LEFT_CENTER(gameStock->GameLogoBig.width(), WIDTH), DY(120), gameStock->GameLogoBig.width(),20),
 //               Qt::AlignRight | Qt::AlignTop,
-//               QString("Version %1 [Qt %2]").arg(GAME_VERSION_STR, QT_VERSION_STR));
-    p.drawText(DX(10),DY(20), QString("Version %1 [Qt %2]").arg(GAME_VERSION_STR, QT_VERSION_STR));
+//               QString("JAG Version %1 [Qt %2]").arg(GAME_VERSION, QT_VERSION_STR));
+    p.drawText(DX(10),DY(20), QString("JAG Version %1 [Qt %2]").arg(GAME_VERSION, QT_VERSION_STR));
 
   }
   else

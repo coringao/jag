@@ -6,7 +6,7 @@
  * Many thanks to XlabSoft & Ind. Infosystems, the originals authors of JAG.
  *
  * Copyright holder 2009-2012 Developed by XlabSoft & Industrial Infosystems
- * Work continued by 2017 Carlos Donizete Froes [a.k.a coringao]
+ * Work continued by 2017-2018 Carlos Donizete Froes [a.k.a coringao]
  *
  * JAG is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -26,7 +26,7 @@
 #ifndef VERSION_H
 #define VERSION_H
 
-#define GAME_VERSION        0x000303
-#define GAME_VERSION_STR    "0.3.3"
+#define GAME_NAME		"JAG"	
+#define GAME_VERSION	"0.3.4"
 
 #endif // VERSION_H
