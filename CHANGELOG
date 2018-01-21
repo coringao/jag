@@ -6,7 +6,7 @@
 # * Many thanks to XlabSoft & Ind. Infosystems, the originals authors of JAG.
 # *
 # * Copyright holder 2009-2012 Developed by XlabSoft & Industrial Infosystems
-# * Work continued by 2017 Carlos Donizete Froes [a.k.a coringao]
+# * Work continued by 2017-2018 Carlos Donizete Froes [a.k.a coringao]
 # *
 # * JAG is free software: you can redistribute it and/or modify it under
 # * the terms of the GNU General Public License as published by the
@@ -15,9 +15,17 @@
 #
 ###############################################################################
 
+**version: 0.3.4**
+  * Fix unix install in 'game.pro' (Thanks for the contribution of yuryfdr)
+  * Fix editor build with Qt5 (Thanks for the contribution of yuryfdr)
+  * Added the GPLv3 license to the files in the 'editor' directory
+  * Files removed in 'data/help' directory indexed language: Russian and Dutch
+  * Added language in Portuguese (Thanks for the contribution of Ricky R. Froes)
+  * Updated language files
+
 **version: 0.3.3**
   * Starting the project continuity for the GNU/Linux version
-  * Added the GPL3 license in all source codes.
+  * Added the GPLv3 license in all source codes
   * Added conditional support for Qt5 components and SDL2 library
   * Removed directory and files to the new directory (src)
   * Improvements:
