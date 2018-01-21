@@ -52,6 +52,27 @@ The game binary after compilation is in **bin** directory.
 
     $ ./bin/jag
 
+**JAG Level Editor**
+--------------------
+
+To build editor, do from the source directory: (src/editor)
+
+**Starting compilation:**
+
+    $ qmake
+
+    $ make
+
+**Removing compilation:**
+
+    $ make clean
+
+    $ make distclean
+
+Once the compilation has finished, execute the created binary:
+
+    $ ./jag-editor
+
 **License**
 -----------
 
@@ -66,4 +87,4 @@ at the end of 2016.
 
 Copyleft (ɔ) 2009-2012 Developed by **XlabSoft & Industrial Infosystems**
 
-Copyright (C) 2017-2018 Work continued by **Carlos Donizete Froes [a.k.a coringao]**
+Copyright (c) 2017-2018 Work continued by **Carlos Donizete Froes [a.k.a coringao]**
