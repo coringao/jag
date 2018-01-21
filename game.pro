@@ -6,7 +6,7 @@
 # * Many thanks to XlabSoft & Ind. Infosystems, the originals authors of JAG.
 # *
 # * Copyright holder 2009-2012 Developed by XlabSoft & Industrial Infosystems
-# * Work continued by 2017 Carlos Donizete Froes [a.k.a coringao]
+# * Work continued by 2017-2018 Carlos Donizete Froes [a.k.a coringao]
 # *
 # * JAG is free software: you can redistribute it and/or modify it under
 # * the terms of the GNU General Public License as published by the
@@ -18,6 +18,14 @@
 QT += gui core widgets opengl xml x11extras
 TARGET = ./bin/jag
 TEMPLATE = app
+
+unix: {
+	target.path = /usr/games/
+	INSTALLS += target
+	datas.path = /usr/share/games/jag
+	datas.files = data
+	INSTALLS += datas
+}
 
 LIBS += -lGL -lX11 -lSDL2 -lSDL2_mixer -lpthread -lXrandr
 
@@ -88,3 +96,8 @@ HEADERS += src/gamewidget.h \
 RESOURCES += src/resources.qrc
 FORMS += src/menu.ui
 TRANSLATIONS += data/lang/jag_ru.ts
+		data/lang/jag_pt.ts
+		data/lang/jag_de.ts
+		data/lang/jag_fr.ts
+		data/lang/jag_it.ts
+		data/lang/jag_nl.ts
