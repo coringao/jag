@@ -26,7 +26,7 @@
 #ifndef VERSION_H
 #define VERSION_H
 
-#define GAME_NAME		"JAG"	
-#define GAME_VERSION	"0.3.4"
+#define GAME_NAME	"JAG"	
+#define GAME_VERSION	"0.3.5"
 
 #endif // VERSION_H
