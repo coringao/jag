@@ -15,12 +15,18 @@
 #
 ###############################################################################
 
+**version: 0.3.5**
+  * Added Spanish translation (thanks to Ricky R. Froes)
+  * Fixes:
+    - Deleted lines with obsolete locations in translations [de,fr,nl,ru]
+    - File 'game.pro' - corrected in translations
+
 **version: 0.3.4**
-  * Fix unix install in 'game.pro' (Thanks for the contribution of yuryfdr)
-  * Fix editor build with Qt5 (Thanks for the contribution of yuryfdr)
+  * Fix unix install in 'game.pro' (thanks to Yury 'yuryfdr')
+  * Fix editor build with Qt5 (thanks to Yury 'yuryfdr')
   * Added the GPLv3 license to the files in the 'editor' directory
   * Files removed in 'data/help' directory indexed language: Russian and Dutch
-  * Added language in Portuguese (Thanks for the contribution of Ricky R. Froes)
+  * Added Portuguese translation (thanks to Ricky R. Froes)
   * Updated language files
 
 **version: 0.3.3**
