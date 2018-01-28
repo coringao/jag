@@ -379,8 +379,8 @@ JAG word nu beëindigd.</translation>
         <translation>Volledig scherm</translation>
     </message>
     <message>
-        <source>Enable Acceleration (restart needed)</source>
-        <translation>Versnelling activeren (herstart nodig)</translation>
+        <source>Enable Acceleration</source>
+        <translation>Versnelling activeren</translation>
     </message>
     <message>
         <source>Audio options</source>

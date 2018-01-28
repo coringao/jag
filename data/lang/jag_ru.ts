@@ -377,7 +377,7 @@ Are you sure you want to quit JAG?</source>
         <translation>Полноэкранный режим</translation>
     </message>
     <message>
-        <source>Enable Acceleration (restart needed)</source>
+        <source>Enable Acceleration</source>
         <translation>Аппаратное ускорение</translation>
     </message>
     <message>

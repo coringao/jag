@@ -379,8 +379,8 @@ Bist du sicher, dass du JAG beenden möchtest?</translation>
         <translation>Vollbild</translation>
     </message>
     <message>
-        <source>Enable Acceleration (restart needed)</source>
-        <translation>Beschleunigung aktivieren (Neustart nötig)</translation>
+        <source>Enable Acceleration</source>
+        <translation>Beschleunigung aktivieren</translation>
     </message>
     <message>
         <source>Audio options</source>

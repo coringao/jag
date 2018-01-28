@@ -377,8 +377,8 @@ Volete veramente uscire da JAG?</translation>
         <translation>A tutto schermo</translation>
     </message>
     <message>
-        <source>Enable Acceleration (restart needed)</source>
-        <translation>Attivare l&apos;accelerazione (riavviare)</translation>
+        <source>Enable Acceleration</source>
+        <translation>Attivare l&apos;accelerazione</translation>
     </message>
     <message>
         <source>Audio options</source>

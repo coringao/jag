@@ -377,8 +377,8 @@ Are you sure you want to quit JAG?</source>
         <translation>Pantalla completa</translation>
     </message>
     <message>
-        <source>Enable Acceleration (restart needed)</source>
-        <translation>Habilitar aceleración (se necesita reiniciar)</translation>
+        <source>Enable Acceleration</source>
+        <translation>Habilitar aceleración</translation>
     </message>
     <message>
         <source>Audio options</source>

@@ -377,8 +377,8 @@ Tem certeza de que deseja encerrar o JAG?</translation>
         <translation>Tela cheia</translation>
     </message>
     <message>
-        <source>Enable Acceleration (restart needed)</source>
-        <translation>Ativar aceleração (reinício necessário)</translation>
+        <source>Enable Acceleration</source>
+        <translation>Ativar aceleração</translation>
     </message>
     <message>
         <source>Audio options</source>
