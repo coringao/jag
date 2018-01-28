@@ -17,6 +17,7 @@
 
 **version: 0.3.5**
   * Added Spanish translation (thanks to Ricky R. Froes)
+  * Updated language files
   * Fixes:
     - Deleted lines with obsolete locations in translations [de,fr,nl,ru]
     - File 'game.pro' - corrected in translations
