@@ -827,7 +827,7 @@
          <item row="1" column="0">
           <widget class="QCheckBox" name="cbAccel">
            <property name="text">
-            <string>Enable Acceleration (restart needed)</string>
+            <string>Enable Acceleration</string>
            </property>
           </widget>
          </item>
