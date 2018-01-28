@@ -249,11 +249,11 @@ Tem certeza de que deseja encerrar o JAG?</translation>
     <name>GameWidget</name>
     <message>
         <source>Files are missing</source>
-        <translation type="obsolete">Des fichiers sont manquants</translation>
+        <translation type="obsolete">Faltam arquivos</translation>
     </message>
     <message>
         <source>Cannot find data folder&lt;br&gt;&lt;b&gt;%1&lt;/b&gt;&lt;br&gt;JAG will exit now.</source>
-        <translation type="obsolete">Ne peut trouver le dossier de données&lt;br&gt;&lt;b&gt;%1&lt;/b&gt;&lt;br&gt;JAG va s&apos;arrêter.</translation>
+        <translation type="obsolete">Não é possível encontrar pasta de dados&lt;br&gt;&lt;b&gt;%1&lt;/b&gt;&lt;br&gt;JAG sairá agora.</translation>
     </message>
 </context>
 <context>
@@ -362,15 +362,15 @@ Tem certeza de que deseja encerrar o JAG?</translation>
     </message>
     <message>
         <source>1024x768 Window</source>
-        <translation type="obsolete">1024х768 Fenster</translation>
+        <translation type="obsolete">1024х768 Janela</translation>
     </message>
     <message>
         <source>1024x768 Fullscreen</source>
-        <translation type="obsolete">1024х768 Vollbild</translation>
+        <translation type="obsolete">1024х768 Tela cheia</translation>
     </message>
     <message>
         <source>Current Resolution</source>
-        <translation type="obsolete">Aktuelle Auflösung</translation>
+        <translation type="obsolete">Resolução atual</translation>
     </message>
     <message>
         <source>Full Screen</source>
@@ -438,7 +438,7 @@ Tem certeza de que deseja encerrar o JAG?</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="obsolete">Annuler</translation>
+        <translation type="obsolete">Cancelar</translation>
     </message>
     <message>
         <source>Players</source>
